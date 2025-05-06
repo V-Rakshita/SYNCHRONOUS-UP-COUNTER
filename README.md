@@ -1,4 +1,4 @@
-### SYNCHRONOUS-UP-COUNTER
+;m### SYNCHRONOUS-UP-COUNTER
 
 **AIM:**
 
@@ -27,11 +27,18 @@ The next flip-flop need only “recognize” that the first flip-flop’s Q outp
 However, the remaining flip-flops should be made ready to toggle only when all lower-order output bits are “high,” thus the need for AND gates.
 
 **Procedure**
+1. Open Quartus and create a new project. Go to File -> New -> Verilog HDL File and type the program.
 
-/* write all the steps invloved */
+2. Compile and run the program.
+
+3. Then go to Tools -> NetList Viewers -> RTL Viewer and generate the RTL schematic and save the logic diagram.
+
+4. Then go to File -> New -> University program VWF. Create nodes for inputs and outputs to generate the timing diagram.
+
+5. Give different input combinations and go to Run Functional Simulation to generate the timing diagram.
+
 
 **PROGRAM**
-
 
 ```verilog
 module counter 
